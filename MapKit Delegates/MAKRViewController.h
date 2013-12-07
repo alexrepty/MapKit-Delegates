@@ -11,4 +11,6 @@
 
 @interface MAKRViewController : UIViewController <MKMapViewDelegate>
 
+@property(nonatomic,strong) IBOutlet MKMapView *mapView;
+
 @end
