@@ -21,6 +21,7 @@
 		B4A50C9318538B2D009E2713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A50C7518538B2D009E2713 /* UIKit.framework */; };
 		B4A50C9B18538B2D009E2713 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4A50C9918538B2D009E2713 /* InfoPlist.strings */; };
 		B4A50C9D18538B2D009E2713 /* MapKit_DelegatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A50C9C18538B2D009E2713 /* MapKit_DelegatesTests.m */; };
+		B4A50CA718538B53009E2713 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A50CA618538B53009E2713 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B4A50C9818538B2D009E2713 /* MapKit DelegatesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapKit DelegatesTests-Info.plist"; sourceTree = "<group>"; };
 		B4A50C9A18538B2D009E2713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4A50C9C18538B2D009E2713 /* MapKit_DelegatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapKit_DelegatesTests.m; sourceTree = "<group>"; };
+		B4A50CA618538B53009E2713 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A50CA718538B53009E2713 /* MapKit.framework in Frameworks */,
 				B4A50C7418538B2D009E2713 /* CoreGraphics.framework in Frameworks */,
 				B4A50C7618538B2D009E2713 /* UIKit.framework in Frameworks */,
 				B4A50C7218538B2D009E2713 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		B4A50C7018538B2D009E2713 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B4A50CA618538B53009E2713 /* MapKit.framework */,
 				B4A50C7118538B2D009E2713 /* Foundation.framework */,
 				B4A50C7318538B2D009E2713 /* CoreGraphics.framework */,
 				B4A50C7518538B2D009E2713 /* UIKit.framework */,

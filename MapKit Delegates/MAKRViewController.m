@@ -8,22 +8,17 @@
 
 #import "MAKRViewController.h"
 
-@interface MAKRViewController ()
-
-@end
-
 @implementation MAKRViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+#pragma mark -
+#pragma mark MKMapViewDelegate Methods
+
+- (void)mapView:(MKMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
+	NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
+	NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
 @end
