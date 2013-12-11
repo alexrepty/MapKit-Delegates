@@ -4,7 +4,7 @@ MapKit Delegates
 Purpose
 -------
 
-Originally a piece of sample code for my talk entitled "What You Absolutely Cannot Do With MapKit", this example serves to illustrate how to make an `MKMapView`'s internal `UIGestureRecognizer` objects work for you.
+Originally a piece of sample code for my talk entitled "[What You Absolutely Cannot Do With MapKit](http://cloud.alexrepty.com/3R330m053t1J)", this example serves to illustrate how to make an `MKMapView`'s internal `UIGestureRecognizer` objects work for you.
 
 Explanation
 -----------
